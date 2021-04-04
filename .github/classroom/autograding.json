@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "5\r\n4 5 1 2 3",
+      "output": "Day 1: -\r\nDay 2: 5 4\r\nDay 3: -\r\nDay 4: -\r\nDay 5: 3 2 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "1\r\n1",
+      "output": "Day 1: 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "2\r\n1 2",
+      "output": "Day 1: -\r\nDay 2: 2 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "4\r\n3 2 1 4",
+      "output": "Day 1: -\r\nDay 2: -\r\nDay 3: -\r\nDay 4: 4 3 2 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "8\r\n1 5 6 3 2 8 7 4",
+      "output": "Day 1: -\r\nDay 2: -\r\nDay 3: -\r\nDay 4: -\r\nDay 5: -\r\nDay 6: 8\r\nDay 7: 7 6 5\r\nDay 8: 4 3 2 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "15\r\n11 7 14 3 9 4 12 2 5 1 15 13 10 8 6",
+      "output": "Day 1: -\r\nDay 2: -\r\nDay 3: -\r\nDay 4: -\r\nDay 5: -\r\nDay 6: -\r\nDay 7: -\r\nDay 8: -\r\nDay 9: -\r\nDay 10: -\r\nDay 11: 15 14\r\nDay 12: 13 12 11\r\nDay 13: 10 9\r\nDay 14: 8 7\r\nDay 15: 6 5 4 3 2 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "11\r\n8 5 6 1 3 2 7 11 10 4 9",
+      "output": "Day 1: -\r\nDay 2: -\r\nDay 3: -\r\nDay 4: -\r\nDay 5: -\r\nDay 6: -\r\nDay 7: -\r\nDay 8: 11\r\nDay 9: 10\r\nDay 10: -\r\nDay 11: 9 8 7 6 5 4 3 2 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "12\r\n3 4 10 12 9 1 2 7 11 8 6 5",
+      "output": "Day 1: -\r\nDay 2: -\r\nDay 3: -\r\nDay 4: 12\r\nDay 5: -\r\nDay 6: -\r\nDay 7: -\r\nDay 8: -\r\nDay 9: 11 10 9\r\nDay 10: 8 7\r\nDay 11: 6\r\nDay 12: 5 4 3 2 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "6\r\n3 5 4 1 2 6",
+      "output": "Day 1: -\r\nDay 2: -\r\nDay 3: -\r\nDay 4: -\r\nDay 5: -\r\nDay 6: 6 5 4 3 2 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "3\r\n3 2 1",
+      "output": "Day 1: 3\r\nDay 2: 2\r\nDay 3: 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
